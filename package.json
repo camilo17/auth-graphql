@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "auth for graphql projects",
   "repository": {
-    "type": "git",
+    "type": "git"
 
   },
   "main": "index.js",
