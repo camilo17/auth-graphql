@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74f4f5ed-f868-4a7b-9bae-7bf16211eeea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/schema/mutation.js" afterPath="$PROJECT_DIR$/server/schema/mutation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/schema/types/root_query_type.js" afterPath="$PROJECT_DIR$/server/schema/types/root_query_type.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,31 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="root_query_type.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/schema/types/root_query_type.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user_type.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/schema/types/user_type.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mutation.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/schema/mutation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,6 +39,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-631">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mutation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/schema/mutation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="root_query_type.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/schema/types/root_query_type.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -89,8 +89,8 @@
         <option value="$PROJECT_DIR$/server/schema/types/user_type.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server/schema/schema.js" />
-        <option value="$PROJECT_DIR$/server/schema/types/root_query_type.js" />
         <option value="$PROJECT_DIR$/server/schema/mutation.js" />
+        <option value="$PROJECT_DIR$/server/schema/types/root_query_type.js" />
       </list>
     </option>
   </component>
@@ -903,15 +903,15 @@
       <updated>1494341455492</updated>
       <workItem from="1494341457056" duration="599000" />
       <workItem from="1494463048934" duration="1689000" />
-      <workItem from="1494706593423" duration="3643000" />
+      <workItem from="1494706593423" duration="4369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5931000" />
+    <option name="totallyTimeSpent" value="6657000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="960" height="1056" extended-state="4" />
+    <frame x="0" y="24" width="960" height="1056" extended-state="5" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1063,10 +1063,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/schema/types/root_query_type.js">
+    <entry file="file://$PROJECT_DIR$/server/schema/types/user_type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="300">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1087,17 +1087,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/schema/types/user_type.js">
+    <entry file="file://$PROJECT_DIR$/server/schema/types/root_query_type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="200">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/schema/mutation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="540">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
