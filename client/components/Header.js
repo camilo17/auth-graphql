@@ -5,8 +5,17 @@ import query from '../queries/CurrentUser';
 class Header extends Component {
 
     renderButtons(){
-        if(this.props.data.loading) {
+        const { loading, user } = this.props.data;
+
+        if(loading) {
             return <div/>;
+        }
+        if(user) {
+            return <div>Logout</div>
+        } else {
+            return (
+                <div>You're not signed in</div>
+            )
         }
     }
 
@@ -14,7 +23,10 @@ class Header extends Component {
         return (
             <nav>
                 <div className="nav-wrapper">
-                    {this.renderButtons()}
+                    <ul className="right">
+                        {this.renderButtons()}
+                    </ul>
+
                 </div>
             </nav>
         );
