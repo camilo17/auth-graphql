@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74f4f5ed-f868-4a7b-9bae-7bf16211eeea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/SignupForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/mutations/Signup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/AuthForm.js" afterPath="$PROJECT_DIR$/client/components/AuthForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/LoginForm.js" afterPath="$PROJECT_DIR$/client/components/LoginForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.js" afterPath="$PROJECT_DIR$/client/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,13 +17,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginForm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/components/LoginForm.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="602">
+              <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,6 +51,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/mutations/Login.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +83,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/index.html">
+      <file leaf-file-name="LoginForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/LoginForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="780">
+              <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignupForm.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/components/SignupForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Signup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/mutations/Signup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -110,13 +146,15 @@
         <option value="$PROJECT_DIR$/server/schema/types/user_type.js" />
         <option value="$PROJECT_DIR$/client/components/App.js" />
         <option value="$PROJECT_DIR$/client/queries/CurrentUser.js" />
-        <option value="$PROJECT_DIR$/client/index.js" />
         <option value="$PROJECT_DIR$/client/mutations/logout.js" />
         <option value="$PROJECT_DIR$/client/components/Header.js" />
         <option value="$PROJECT_DIR$/client/mutations/Login.js" />
         <option value="$PROJECT_DIR$/client/components/LoginForm.js" />
         <option value="$PROJECT_DIR$/client/components/AuthForm.js" />
         <option value="$PROJECT_DIR$/client/index.html" />
+        <option value="$PROJECT_DIR$/client/mutations/Signup.js" />
+        <option value="$PROJECT_DIR$/client/index.js" />
+        <option value="$PROJECT_DIR$/client/components/SignupForm.js" />
       </list>
     </option>
   </component>
@@ -930,12 +968,12 @@
       <workItem from="1494341457056" duration="599000" />
       <workItem from="1494463048934" duration="1689000" />
       <workItem from="1494706593423" duration="12362000" />
-      <workItem from="1496058696793" duration="3863000" />
+      <workItem from="1496058696793" duration="6202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18513000" />
+    <option name="totallyTimeSpent" value="20852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="954" height="1056" extended-state="4" />
@@ -1184,24 +1222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/mutations/Logout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1260,10 +1280,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/mutations/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/components/LoginForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="780">
+          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -1278,11 +1314,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/index.html">
+    <entry file="file://$PROJECT_DIR$/client/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="20">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/SignupForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
